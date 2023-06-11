@@ -5,6 +5,7 @@ import { FullScreenPageComponent } from './pages/full-screen-page/full-screen-pa
 import { MarkersPageComponent } from './pages/markers-page/markers-page.component';
 import { PropertiesPageComponent } from './pages/properties-page/properties-page.component';
 import { ZoomRangePageComponent } from './pages/zoom-range-page/zoom-range-page.component';
+import { MapScreenComponent } from './screens/map-screen/map-screen.component';
 
 const routes: Routes = [
   {
@@ -26,6 +27,10 @@ const routes: Routes = [
       {
         path:'zoom-range',
         component:ZoomRangePageComponent,
+      },
+      {
+        path:'map-screen',
+        component:MapScreenComponent,
       },
       {
         path:'**',

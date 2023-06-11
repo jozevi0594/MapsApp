@@ -11,6 +11,13 @@ import { ZoomRangePageComponent } from './pages/zoom-range-page/zoom-range-page.
 import * as mapboxgl from 'mapbox-gl'; // or "const mapboxgl = require('mapbox-gl');"
 import { CounterAloneComponent } from '../alone/components/counter-alone/counter-alone.component';
 import { SideMenuComponent } from '../alone/components/side-menu/side-menu.component';
+import { MapScreenComponent } from './screens/map-screen/map-screen.component';
+import { MapViewComponent } from './components/map-view/map-view.component';
+import { LoadingComponent } from './components/loading/loading.component';
+import { BtnMyLocationComponent } from './components/btn-my-location/btn-my-location.component';
+import { AngularLogoComponent } from './components/angular-logo/angular-logo.component';
+import { SearchBarComponent } from './components/search-bar/search-bar.component';
+import { SearchResultsComponent } from './components/search-results/search-results.component';
 
 (mapboxgl as any).accessToken = 'pk.eyJ1IjoiaGdkczMiLCJhIjoiY2xpamk4YWlhMDJvdzNsb2Iyanc2NXJ5MSJ9.epmBdHjA2Syt3y3FrZ0HQQ';
 
@@ -23,6 +30,13 @@ import { SideMenuComponent } from '../alone/components/side-menu/side-menu.compo
     MarkersPageComponent,
     PropertiesPageComponent,
     ZoomRangePageComponent,
+    MapScreenComponent,
+    MapViewComponent,
+    LoadingComponent,
+    BtnMyLocationComponent,
+    AngularLogoComponent,
+    SearchBarComponent,
+    SearchResultsComponent,
   ],
   imports: [
     CommonModule,
